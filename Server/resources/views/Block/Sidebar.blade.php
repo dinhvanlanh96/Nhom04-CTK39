@@ -45,49 +45,16 @@
       <a href="#" class="dropdown-toggle">
         <i class="menu-icon fa fa-home"></i>
         <span class="menu-text">
-          Khu trọ
+          Thời Khóa Biểu
         </span>
         <b class="arrow fa fa-angle-down"></b>
       </a>
-      <b class="arrow"></b>
-      <ul class="submenu">
-        <li class="Buildings">
-          <a onclick="app_menu('Buildings')" href="#" class="dropdown-toggle">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Nhà trọ
-
-          </a>
-
-          <b class="arrow"></b>
-        </li>
-        <li class="Rooms">
-          <a onclick="app_menu('Rooms')" href="#" class="dropdown-toggle">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Phòng
-          </a>
-          <b class="arrow"></b>
-        </li>
-        <li class="">
-          <a onclick="app_menu('Services')" href="#">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Dịch vụ
-          </a>
-          <b class="arrow"></b>
-        </li>
-        <li class="Devices">
-          <a onclick="app_menu('Devices')" href="#">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Thiết bị
-          </a>
-          <b class="arrow"></b>
-        </li>
-      </ul>
     </li>
     <li class="">
       <a  href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-handshake-o" aria-hidden="true"></i>
+        <i class="menu-icon fa fa fa-users" aria-hidden="true"></i>
         <span class="menu-text">
-          Hợp đồng
+          Học Viên
         </span>
         <b class="arrow fa fa-angle-down"></b>
       </a>
@@ -102,34 +69,14 @@
 
           <b class="arrow"></b>
         </li>
-        <li class="">
-          <a onclick="app_menu('Deposits')" href="#" class="dropdown-toggle">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Đặt cọc phòng
-          </a>
-          <b class="arrow"></b>
-        </li>
-        <li class="">
-          <a onclick="app_menu('Renters')" href="#">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Khách thuê
-          </a>
-          <b class="arrow"></b>
-        </li>
-        <li class="">
-          <a onclick="app_menu('Renter_histories')" href="#">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Lịch sử khách thuê
-          </a>
-          <b class="arrow"></b>
-        </li>
+  
       </ul>
     </li>
     <li class="">
       <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-credit-card-alt" aria-hidden="true"></i>
+        <i class="menu-icon fa fa-diamond" aria-hidden="true"></i>
         <span class="menu-text">
-          Hóa đơn
+          Khóa Học
         </span>
         <b class="arrow fa fa-angle-down"></b>
       </a>
@@ -195,8 +142,8 @@
     </li>
     <li class="">
       <a onclick="app_menu('error-500')" href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-bar-chart-o"></i>
-        <span class="menu-text"> Thống kê báo cáo</span>
+        <i class="menu-icon fa fa-graduation-cap"></i>
+        <span class="menu-text"> Lớp Học</span>
 
         <b class="arrow fa fa-angle-down"></b>
       </a>
@@ -289,8 +236,36 @@
     </li>
     <li class="">
       <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa fa-cog"></i>
-        <span class="menu-text"> Hệ thống </span>
+        <i class="menu-icon fa fa-bullhorn"></i>
+        <span class="menu-text"> Điểm Danh </span>
+
+        <b class="arrow fa fa-angle-down"></b>
+      </a>
+
+      <b class="arrow"></b>
+
+      <ul class="submenu">
+        <li class="">
+          <a onclick="app_menu('error-500')" id="profile" href="#">
+            <i class="menu-icon fa fa-caret-right"></i>
+            SMS
+          </a>
+
+          <b class="arrow"></b>
+        </li>
+        <li class="">
+          <a onclick="app_menu('error-500')" id="profile"  href="#">
+            <i class="menu-icon fa fa-caret-right"></i>
+            Phản hồi dịch vụ
+          </a>
+          <b class="arrow"></b>
+        </li>
+      </ul>
+    </li>
+    <li class="">
+      <a href="#" class="dropdown-toggle">
+        <i class="menu-icon fa fa-money"></i>
+        <span class="menu-text"> Thu Học Phi </span>
 
         <b class="arrow fa fa-angle-down"></b>
       </a>
@@ -313,44 +288,12 @@
           </a>
           <b class="arrow"></b>
         </li>
-        <li class="">
-          <a href="form-elements.html">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Danh sách dịch vụ
-          </a>
-
-          <b class="arrow"></b>
-        </li>
-        <li class="">
-          <a onclick="app_menu('error-500')" href="#">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Công thức
-          </a>
-
-          <b class="arrow"></b>
-        </li>
-        <li class="">
-          <a onclick="app_menu('error-500')" href="#">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Đơn vị
-          </a>
-
-          <b class="arrow"></b>
-        </li>
-        <li class="">
-          <a onclick="app_menu('error-500')" href="#">
-            <i class="menu-icon fa fa-caret-right"></i>
-            Kỳ báo cáo
-          </a>
-
-          <b class="arrow"></b>
-        </li>
       </ul>
     </li>
     <li class="">
       <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-bullhorn"></i>
-        <span class="menu-text"> Tiện ích </span>
+        <i class="menu-icon fa fa-user-circle-o"></i>
+        <span class="menu-text"> Giáo Viên </span>
 
         <b class="arrow fa fa-angle-down"></b>
       </a>
@@ -359,9 +302,9 @@
 
       <ul class="submenu">
         <li class="">
-          <a onclick="app_menu('error-500')" id="profile" href="#">
+          <a onclick="app_menu('Profiles')" href="#">
             <i class="menu-icon fa fa-caret-right"></i>
-            SMS
+            Hô sơ cá nhân
           </a>
 
           <b class="arrow"></b>
@@ -369,7 +312,63 @@
         <li class="">
           <a onclick="app_menu('error-500')" id="profile"  href="#">
             <i class="menu-icon fa fa-caret-right"></i>
-            Phản hồi dịch vụ
+            Cấu hình chung
+          </a>
+          <b class="arrow"></b>
+        </li>
+      </ul>
+    </li>
+    <li class="">
+      <a href="#" class="dropdown-toggle">
+        <i class="menu-icon fa fa-server"></i>
+        <span class="menu-text"> Thiết Bị </span>
+
+        <b class="arrow fa fa-angle-down"></b>
+      </a>
+
+      <b class="arrow"></b>
+
+      <ul class="submenu">
+        <li class="">
+          <a onclick="app_menu('Profiles')" href="#">
+            <i class="menu-icon fa fa-caret-right"></i>
+            Hô sơ cá nhân
+          </a>
+
+          <b class="arrow"></b>
+        </li>
+        <li class="">
+          <a onclick="app_menu('error-500')" id="profile"  href="#">
+            <i class="menu-icon fa fa-caret-right"></i>
+            Cấu hình chung
+          </a>
+          <b class="arrow"></b>
+        </li>
+      </ul>
+    </li>
+    <li class="">
+      <a href="#" class="dropdown-toggle">
+        <i class="menu-icon fa fa fa-cog"></i>
+        <span class="menu-text"> Hệ thống </span>
+
+        <b class="arrow fa fa-angle-down"></b>
+      </a>
+
+      <b class="arrow"></b>
+
+      <ul class="submenu">
+        <li class="">
+          <a onclick="app_menu('Profiles')" href="#">
+            <i class="menu-icon fa fa-caret-right"></i>
+            Hô sơ cá nhân
+          </a>
+
+          <b class="arrow"></b>
+        </li>
+        <li class="">
+          <a onclick="app_menu('error-500')" id="profile"  href="#">
+            <i class="menu-icon fa fa-caret-right"></i>
+            Cấu hình chung
           </a>
           <b class="arrow"></b>
         </li>

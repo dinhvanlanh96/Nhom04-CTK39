@@ -7,7 +7,7 @@
       <span class="icon-bar"></span>
     </button>
     <div class="navbar-header pull-left">
-      <a href="/" class="navbar-brand"><small></i></small>DEVELOPER</a>
+      <a href="/" class="navbar-brand"><small>DEVELOPER</small></a>
     </div>
     <div class="navbar-buttons navbar-header pull-right" role="navigation">
       <ul class="nav ace-nav">
