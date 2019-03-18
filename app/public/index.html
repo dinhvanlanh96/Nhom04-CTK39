@@ -24,23 +24,13 @@
     <script type="text/javascript" src="%PUBLIC_URL%/Training/lib/modernizr-custom-jtc.js"></script>
     <script type="text/javascript" src="%PUBLIC_URL%/Training/lib/util.js?v=1.1.0"></script>
     <script type="text/javascript" src="%PUBLIC_URL%/Training/lib/jtc.js?v=1.1.0"></script>
-    <style>
-        .chat-icon {
-            display: block;
-        }
-    </style>
-
     <script>
         $(document).ready(function() {
-            $('div#chat-box').css({
-                "display": "none"
-            });
+            $('div#chat-box').css({"display": "none"});
             $('.fb-message').addClass("blog-page");
             $('#chat-box').addClass("blog-page");
         });
-        var enableLoadmore = true;
-
-        function viewMore() {
+        var enableLoadmore = true;        function viewMore() {
             enableLoadmore = false;
             $('#load-more').prepend('<i class="fa fa-spinner fa-spin" aria-hidden="true"></i>');
             var data = {
@@ -55,9 +45,7 @@
                 $('#next-page').remove();
                 $('#prev-page').remove();
                 $('.blog-listing').append(res);
-                $('.blank-promotion').css({
-                    'display': 'none'
-                });
+                $('.blank-promotion').css({'display': 'none'});
             });
         }
 
@@ -67,21 +55,17 @@
             }, 1000);
         }
 
-        $(window).scroll(function() {
+        $(window).scroll(function () {
             $('#fixed-position-right').scrollTop($(window).scrollTop());
             if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10 - 347) {
                 var contentBlogHeight = $(".blog-listing").height();
                 var promoHeight = $("#fixed-position-right").height();
 
                 if (contentBlogHeight >= promoHeight) {
-                    $('.blank-promotion').css({
-                        'display': 'block'
-                    });
+                    $('.blank-promotion').css({'display': 'block'});
                 }
             } else {
-                $('.blank-promotion').css({
-                    'display': 'none'
-                });
+                $('.blank-promotion').css({'display': 'none'});
             }
             if (enableLoadmore) {
                 if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
@@ -90,5 +74,11 @@
             }
         });
     </script>
+    <a id="back-top" onclick="scrollToTop()" class="back-to-top blog-page page-scroll" title="back to Top">
+        <i class="fa fa-caret-up"></i>
+    </a>
+    <script>
+    ga('send', 'pageview');
+</script>
   </body>
 </html>
