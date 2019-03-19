@@ -33,20 +33,20 @@
         var enableLoadmore = true;        function viewMore() {
             enableLoadmore = false;
             $('#load-more').prepend('<i class="fa fa-spinner fa-spin" aria-hidden="true"></i>');
-            var data = {
-                ajax: true,
-                cate: cate ? cate : undefined,
-                type: type ? type : undefined,
-                searchText: searchText ? searchText : undefined,
-                page: ++page
-            };
-            $.post("#", data, function(res) {
-                $('#load-more').remove();
-                $('#next-page').remove();
-                $('#prev-page').remove();
-                $('.blog-listing').append(res);
-                $('.blank-promotion').css({'display': 'none'});
-            });
+            // var data = {
+            //     ajax: true,
+            //     cate: cate ? cate : undefined,
+            //     type: type ? type : undefined,
+            //     searchText: searchText ? searchText : undefined,
+            //     page: ++page
+            // };
+            // $.post("#", data, function(res) {
+            //     $('#load-more').remove();
+            //     $('#next-page').remove();
+            //     $('#prev-page').remove();
+            //     $('.blog-listing').append(res);
+            //     $('.blank-promotion').css({'display': 'none'});
+            // });
         }
 
         function scrollToTop() {

@@ -33,7 +33,9 @@ class Footer extends Component{
                     <div className="data">
                         <span><i className="fa fa-phone" aria-hidden="true" />0933 06 7997</span><br />
                         <span><i className="fa fa-phone" aria-hidden="true" />0933 26 7337</span><br />
-                        <a href="mailto:tuyensinh@laptrinhvien.io" style={{color: 'inherit'}}><span><i className="fa fa-envelope" aria-hidden="true" />tuyensinh@laptrinhvien.io</span></a>
+                        <a href="mailto:tuyensinh@laptrinhvien.io" style={{color: 'inherit'}}>
+                                <span><i className="fa fa-envelope" aria-hidden="true" />tuyensinh@laptrinhvien.org</span>
+                        </a>
                     </div>
                     </div>
                 </div>

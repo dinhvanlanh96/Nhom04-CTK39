@@ -275,39 +275,7 @@ class Home extends Component {
         <Widget/>
         </div>
       </div>
-      <div className="footer blog">
-        <div className="copyright">
-          <div className="container">
-            <div className="row flex-container flex-align-items-center flex-wrap">
-              <div className="text col-xs-12 col-md-5 col-md-offset-1"> Bản Quyền © 2017 thuộc JTC. Thiết kế bởi <i className="fa fa-heart" /> <a href="http://janeto.com" target="_blank">JANETO</a>
-              </div>
-              <div className="subscribe-input col-xs-12 col-md-4" id="subscribe">
-                <div role="form" className="wpcf7" id="wpcf7-f38-o1" lang="en-US" dir="ltr">
-                  <div className="screen-reader-response" />
-                  <form action="/blogs/?category=courses#wpcf7-f38-o1" method="post" className="wpcf7-form" noValidate="novalidate">
-                    <div style={{display: 'none'}}>
-                      <input type="hidden" name="_wpcf7" defaultValue={38} />
-                      <input type="hidden" name="_wpcf7_version" defaultValue="4.7" />
-                      <input type="hidden" name="_wpcf7_locale" defaultValue="en_US" />
-                      <input type="hidden" name="_wpcf7_unit_tag" defaultValue="wpcf7-f38-o1" />
-                      <input type="hidden" name="_wpnonce" defaultValue="1f6aa2986e" />
-                    </div>
-                    <div className="input-group">
-                      <span className="wpcf7-form-control-wrap subscribe-email"><input type="email" name="subscribe-email" defaultValue size={40} className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email form-control" id="subscribe-email" aria-invalid="false" placeholder="EMAIL - SỐ ĐIỆN THOẠI" /></span><br />
-                      <span className="input-group-btn"><br />
-                        <button className="btn btn-default" type="button" >ĐĂNG KÝ</button><br />
-                      </span>
-                    </div>
-                    <div className="wpcf7-response-output wpcf7-display-none" /></form></div>                    <div className="result">
-                  <p className="subs-success" />
-                  <p className="subs-error" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>  
-</section>
+      </section>
     );
   }
 }
