@@ -48,7 +48,8 @@ class Home extends Component {
                       0              </span>
                   </div>
                   <div className="col-md-3 blog-share-btn">
-                    <a onclick="shareBlog('https://laptrinhvien.io/khoa-hoc-lap-trinh-can-ban-c-khai-giang-ngay-18-03-2019/', 'https://laptrinhvien.io/wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-can-ban-va-cpp-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <a 
+                     target="_blank">
                       <img src="https://laptrinhvien.io/wp-content/themes/Training/asset/img/share-btn.png" />
                     </a>
                   </div>
@@ -65,7 +66,7 @@ class Home extends Component {
                 <a href="https://laptrinhvien.io/cong-ty-janeto-lien-tuc-tuyen-dung-cac-vi-tri-tu-internship-toi-senior/">
                   <img className="promotion" src="https://laptrinhvien.io/wp-content/uploads/2018/09/laptrinhvienio-tin-tuyen-dung-cong-ty-janeto-dang-tuyen-dung-cac-vi-tri-tu-internship-toi-senior-thang-11-2018.png" />
                 </a>
-                <a onclick="shareBlog('https://laptrinhvien.io/cong-ty-janeto-lien-tuc-tuyen-dung-cac-vi-tri-tu-internship-toi-senior/', 'https://laptrinhvien.io/wp-content/uploads/2018/09/laptrinhvienio-tin-tuyen-dung-cong-ty-janeto-dang-tuyen-dung-cac-vi-tri-tu-internship-toi-senior-thang-11-2018.png')" target="_blank">
+                <a  target="_blank">
                   <img className="sharing" src="https://laptrinhvien.io/wp-content/themes/Training/asset/img/share-btn.png" />
                 </a>
               </div>                              </div>
@@ -106,7 +107,7 @@ class Home extends Component {
                       0              </span>
                   </div>
                   <div className="col-md-3 blog-share-btn">
-                    <a onclick="shareBlog('https://laptrinhvien.io/khoa-hoc-lap-trinh-web-front-end-co-ban-khai-giang-ngay-25-03-2019/', 'https://laptrinhvien.io/wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-front-end-co-ban-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <a  target="_blank">
                       <img src="https://laptrinhvien.io/wp-content/themes/Training/asset/img/share-btn.png" />
                     </a>
                   </div>
@@ -155,7 +156,7 @@ class Home extends Component {
                       0              </span>
                   </div>
                   <div className="col-md-3 blog-share-btn">
-                    <a onclick="shareBlog('https://laptrinhvien.io/khoa-hoc-lap-trinh-angular-6-khai-giang-ngay-18-03-2019/', 'https://laptrinhvien.io/wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-front-end-nang-cao-voi-angular-6-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <a  target="_blank">
                       <img src="https://laptrinhvien.io/wp-content/themes/Training/asset/img/share-btn.png" />
                     </a>
                   </div>
@@ -204,7 +205,7 @@ class Home extends Component {
                       0              </span>
                   </div>
                   <div className="col-md-3 blog-share-btn">
-                    <a onclick="shareBlog('https://laptrinhvien.io/khoa-hoc-lap-trinh-web-back-end-voi-node-js-khai-giang-ngay-18-03-2019/', 'https://laptrinhvien.io/wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-back-end-voi-nodejs-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <a  target="_blank">
                       <img src="https://laptrinhvien.io/wp-content/themes/Training/asset/img/share-btn.png" />
                     </a>
                   </div>
@@ -254,7 +255,7 @@ class Home extends Component {
                       0              </span>
                   </div>
                   <div className="col-md-3 blog-share-btn">
-                    <a onclick="shareBlog('https://laptrinhvien.io/khoa-hoc-lap-trinh-android-khai-giang-ngay-18-03-2019/', 'https://laptrinhvien.io/wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-android-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <a  target="_blank">
                       <img src="https://laptrinhvien.io/wp-content/themes/Training/asset/img/share-btn.png" />
                     </a>
                   </div>
@@ -294,7 +295,7 @@ class Home extends Component {
                     <div className="input-group">
                       <span className="wpcf7-form-control-wrap subscribe-email"><input type="email" name="subscribe-email" defaultValue size={40} className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email form-control" id="subscribe-email" aria-invalid="false" placeholder="EMAIL - SỐ ĐIỆN THOẠI" /></span><br />
                       <span className="input-group-btn"><br />
-                        <button className="btn btn-default" type="button" onclick="submitSubscribe()">ĐĂNG KÝ</button><br />
+                        <button className="btn btn-default" type="button" >ĐĂNG KÝ</button><br />
                       </span>
                     </div>
                     <div className="wpcf7-response-output wpcf7-display-none" /></form></div>                    <div className="result">
