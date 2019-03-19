@@ -379,8 +379,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-       
-          
       </section>
       </div>
     );
