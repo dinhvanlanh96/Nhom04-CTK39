@@ -43,27 +43,27 @@
                   <div class="profile-user-info profile-user-info-striped center">
                       <div class="profile-info-row">
                           <div class="profile-info-value">
-                              <span class="editable red	">Thời hạn dùng còn: 30 ngày (Dùng thử)</span>
+                              <span class="editable red	">Họ Tên : Đinh Văn Lành</span>
                           </div>
                       </div>
                       <div class="profile-info-row">
+                        <div class="profile-info-value">
+                            <span class="editable yellow	">Mã GV : GV12022019</span>
+                        </div>
+                    </div>
+                      <div class="profile-info-row">
                           <div class="profile-info-value">
-                            <p>
-
-                              <button class="btn btn-warning "><i class="ace-icon fa fa-signal icon-animated-vertical icon-only bigger-150"></i> Nân cấp</button>
-                              <button class="btn btn-info"><i class="ace-icon fa fa-credit-card bigger-150"></i>Gia hạn</button>
-
-                            </p>
+                              <span class="editable blue">Ngày Sinh : 12/0/1996</span>
                           </div>
                       </div>
                       <div class="profile-info-row">
-                          <div class="profile-info-value">
-                              <span class="editable">Gói Miễn Phí (Giới hạn 05 phòng)</span>
-                          </div>
-                      </div>
+                        <div class="profile-info-value">
+                            <span class="editable blue">Chức Vụ : Giản Viên PHP</span>
+                        </div>
+                    </div>
                       <div class="profile-info-row">
                           <div class="profile-info-value">
-                              <span class="editable">Thời hạn: 10/01/2019 - 09/02/2019</span>
+                            <span class="editable blue">Ngày Vào Làm : 12/0/1995</span>
                           </div>
                       </div>
                   </div>

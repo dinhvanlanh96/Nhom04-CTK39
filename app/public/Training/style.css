@@ -62,7 +62,7 @@ section.header .search .search-icon {
 
 section.header .search-input {
     height: 40px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding-left: 50px;
 }
 
@@ -82,7 +82,7 @@ section.content {
 .panel {
     background: white;
     color: black;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     border: none;
     box-shadow: none;
 }
@@ -93,7 +93,7 @@ section.content {
 
 .panel .promotion {
     width: 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 #fixed-position-left ul li img {
@@ -129,14 +129,14 @@ section.content {
 
 .panel ul li:first-child,
 .panel ul li:first-child a{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .panel ul li:last-child,
 .panel ul li:last-child a{
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .panel ul li:hover,
@@ -411,7 +411,7 @@ section.content {
 .panel.only-promotion img.promotion {
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .panel.only-promotion img.sharing {

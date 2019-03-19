@@ -43,8 +43,8 @@
 									<div class="widget-body">
 										<div class="widget-main">
 											<h4 class="header blue lighter bigger center">
-												<i class="ace-icon fa fa-home red"></i>
-												Đăng Nhập
+												<img style="width: 100px" src="{{asset('Manage/assets/images/icon2.png')}}">
+											
 											</h4>
 
 											<div class="space-6"></div>

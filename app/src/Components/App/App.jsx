@@ -43,7 +43,7 @@ class App extends Component {
             {/* <span className="blogs-title">Blogs</span> */}
             <div className="search">
               <img className="search-icon" src="https://laptrinhvien.io/wp-content/themes/Training/asset/img/search-icon.png" />
-              <input id="searchText" className="form-control search-input" type="text" onkeypress="return search(event, 'https://laptrinhvien.io');" />
+              <input id="searchText" className="form-control search-input" type="text" />
             </div>
           </div>
         </section>
