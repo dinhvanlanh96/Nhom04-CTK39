@@ -2,7 +2,6 @@ import React from 'react';
 import Home from '../Components/Pages/Home/Home';
 import ER404 from '../Components/Pages/Error/ER404';
 import Login from '../Components/Pages/Login/Login';
-
 const RouterURL=[
         {
             path:'/',
