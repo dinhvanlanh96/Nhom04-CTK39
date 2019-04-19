@@ -1,5 +1,7 @@
 <p align="center"><h1 align="center">LẬP TRÌNH WEB NÂNG CAO</h1></p>
-
+<p align="center"><h4 align="center">DỰ ÁN TRUNG TÂM ĐÀO TẠO IT</h4></p>
+<hr>
+<p align="center">TEAM THỰC HIỆN</p>
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
