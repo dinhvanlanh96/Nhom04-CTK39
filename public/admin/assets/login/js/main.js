@@ -33,12 +33,12 @@
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
               },
-            url:'/account/authentication',
+            url:'/wp-admin/Authentication',
             data:{email:$('#email').val(),password:$('#password').val()},
             type:'POST',
             success:function(data){
                 if(data.status==true){
-                    window.location.href = "/";
+                    window.location.href = "/adminator";
                 }
                 else{
                  //  alert('Không Thành công');

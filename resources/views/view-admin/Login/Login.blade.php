@@ -26,14 +26,14 @@
 						 Login
 					</span>
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: abcd@gmailc.com">
-						<input class="input100" type="text" id="email" name="email" placeholder="Email">
+						<input class="input100" type="text" id="email" name="email" value="abc@gmail.com" placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" id="password" name="password" placeholder="Password">
+						<input class="input100" type="password" id="password" name="password" value="12345" placeholder="Password">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
