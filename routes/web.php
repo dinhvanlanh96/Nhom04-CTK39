@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::group(['prefix' => '/'], function () {
     Route::get('/', function () {
         return view('view-welcome.welcome');
@@ -51,5 +50,5 @@ Route::group(['prefix' => 'Dashboards'],function (){
      Route::get('/Dashboards','BackEnd\DashboardsController@index'); //
 });
 Route::group(['prefix' => 'Profiles'],function (){
-     Route::get('/Profiles','ProfileController@index'); // Thông Tin Cá NHân
+     Route::get('/Profiles','BackEnd\ProfileController@index'); // Thông Tin Cá NHân
 });//

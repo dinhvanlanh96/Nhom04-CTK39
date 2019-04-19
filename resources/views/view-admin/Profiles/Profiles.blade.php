@@ -1,4 +1,4 @@
-<script type="text/javascript" src="{{ asset('js/manage/ProfilesController.js')}}" ></script>
+<script type="text/javascript" src="{{ asset('js/admin/ProfilesController.js')}}" ></script>
 <div class="breadcrumbs ace-save-state" id="breadcrumbs">
   <ul class="breadcrumb">
     <li>
@@ -21,7 +21,7 @@
       <div class="col-xs-12 col-sm-4 center">
           <div>
               <span class="profile-picture">
-          <img id="avatar" class="editable img-responsive" alt="Alex's Avatar" src="{{asset('Manage/assets/images/avatars/profile-pic.jpg')}}" />
+          <img id="avatar" class="editable img-responsive" alt="Alex's Avatar" src="{{asset('admin/assets/images/avatars/profile-pic.jpg')}}" />
         </span>
 
               <div class="space-4"></div>
