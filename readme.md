@@ -1,3 +1,4 @@
+<p align="center"><img src="http://pqldt.dlu.edu.vn/Temp/ArticleImage/9c0824e4-fa28-4cc6-9819-d46598e994e9.png"></p>
 <p align="center"><h1 align="center">LẬP TRÌNH WEB NÂNG CAO</h1></p>
 <p align="center"><h4 align="center">DỰ ÁN TRUNG TÂM ĐÀO TẠO IT</h4></p>
 <p align="center">TEAM THỰC HIỆN</p>
