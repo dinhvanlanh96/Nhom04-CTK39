@@ -41,9 +41,9 @@ Route::group(['prefix' => '/adminator'],function (){
 Route::get('welcome2',function(){
     return view('view-admin.welcome2');
 });
-Route::group(['prefix' => 'account'],function (){
-     Route::get ('/login','LoginController@index');//
-     Route::post('/Authentication','LoginController@PostLogin'); //
+Route::group(['prefix' => 'wp-admin'],function (){
+     Route::get ('/','BackEnd\LoginController@index');//
+     Route::post('/Authentication','BackEnd\LoginController@PostLogin'); //
 });
 //
 Route::group(['prefix' => 'Dashboards'],function (){
