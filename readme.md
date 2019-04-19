@@ -1,11 +1,11 @@
 <p align="center"><h1 align="center">LẬP TRÌNH WEB NÂNG CAO</h1></p>
 <p align="center"><h4 align="center">DỰ ÁN TRUNG TÂM ĐÀO TẠO IT</h4></p>
-<hr>
-<p align="center">TEAM THỰC HIỆN</p><
+<p align="center">TEAM THỰC HIỆN</p>
 <p align="center"> Đinh Văn Lành </p>
 <p align="center"> Võ Đại Nhật Trường </p>
 <p align="center"> Nguyễn Trọng Hoàng </p>
 <p align="center"> Ma Xuân Thoại </p>
+<hr>
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
