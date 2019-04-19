@@ -11,6 +11,11 @@
     </div>
     <div class="navbar-buttons navbar-header pull-right" role="navigation">
       <ul class="nav ace-nav">
+      <li class="">
+          <a  href="/" target="_blank">
+            <i class="ace-icon fa fa-eye"></i> Xem Website
+          </a>
+          </li>
         <li class="purple dropdown-modal">
           <a data-toggle="dropdown" class="dropdown-toggle" href="#">
             <i class="ace-icon fa fa-bell icon-animated-bell"></i>
