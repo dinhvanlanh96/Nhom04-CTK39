@@ -1,11 +1,22 @@
 <p align="center"><h1 align="center">LẬP TRÌNH WEB NÂNG CAO</h1></p>
 <p align="center"><h4 align="center">DỰ ÁN TRUNG TÂM ĐÀO TẠO IT</h4></p>
 <hr>
-<p align="center">TEAM THỰC HIỆN</p>
-<p> Đinh Văn Lành </p>
-<p> Võ Đại Nhật Trường </p>
-<p> Nguyễn Trọng Hoàng </p>
-<p> Ma Xuân Thoại </p>
+<div class="row">
+    <div class="col-md-12"><p align="center">TEAM THỰC HIỆN</p></div>
+    <div class="col-md-3">
+         <p> Đinh Văn Lành </p>
+    </div>
+     <div class="col-md-3">
+         <p> Võ Đại Nhật Trường </p>
+    </div>
+     <div class="col-md-3">
+     <p> Nguyễn Trọng Hoàng </p>
+    </div>
+     <div class="col-md-3">
+         <p> Ma Xuân Thoại </p>
+    </div>
+</div>
+
 <hr>
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
