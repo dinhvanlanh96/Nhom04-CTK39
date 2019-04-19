@@ -14,7 +14,7 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', function () {
+Route::get('/admin', function () {
     return view('Layout.Main');
 });
 Route::get('welcome2',function(){
@@ -31,3 +31,25 @@ Route::group(['prefix' => 'Dashboards'],function (){
 Route::group(['prefix' => 'Profiles'],function (){
      Route::get('/Profiles','ProfileController@index'); // Thông Tin Cá NHân
 });//
+
+//--------------------------------------------- Fron- End --------------------------------
+Route::get('/', function () {
+     return view('view-welcome.welcome');
+ });
+ Route::group(['prefix' => '/blogs'], function () {
+      Route::get('/',function(){
+        return view('view-blog.pages.home.home');
+     });
+     // Router Khóa Học
+     Route::get('/khoa-hoc',function(){
+         return view('view-blog.pages.course.course');
+     });
+     Route::get('/khoa-hoc/details',function(){
+         return view('view-blog.pages.course.course-details');
+     });
+     // Router Các sự kiện
+     Route::get('/su-kien',function(){
+         return view('view-blog.pages.event.event');
+     });
+      
+ });
