@@ -1,25 +1,12 @@
 <p align="center"><h1 align="center">LẬP TRÌNH WEB NÂNG CAO</h1></p>
 <p align="center"><h4 align="center">DỰ ÁN TRUNG TÂM ĐÀO TẠO IT</h4></p>
 <hr>
-<div class="row">
-    <div class="col-md-12"><p align="center">TEAM THỰC HIỆN</p></div>
-    <div class="col-md-3">
-         <p> Đinh Văn Lành </p>
-    </div>
-     <div class="col-md-3">
-         <p> Võ Đại Nhật Trường </p>
-    </div>
-     <div class="col-md-3">
-     <p> Nguyễn Trọng Hoàng </p>
-    </div>
-     <div class="col-md-3">
-         <p> Ma Xuân Thoại </p>
-    </div>
-</div>
-
-<hr>
+<p align="center">TEAM THỰC HIỆN</p><
+<p align="center"> Đinh Văn Lành </p>
+<p align="center"> Võ Đại Nhật Trường </p>
+<p align="center"> Nguyễn Trọng Hoàng </p>
+<p align="center"> Ma Xuân Thoại </p>
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
